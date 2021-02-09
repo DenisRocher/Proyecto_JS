@@ -1,6 +1,8 @@
 # Proyecto_JS
 # STATUS: EN DESARROLLO
 
+![Screenshot](MaquetaWeb.png)
+
 1. Maquetar una web parecida a esta
 2. Buscar un plugin de jQuery para hacer un slider
 3. Listado de post almacenado en un json y mostrado dinámicamente
