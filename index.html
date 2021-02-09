@@ -23,17 +23,20 @@
       <!-- Cabecera -->
       <header>
         <div id="logo">
-          Proyecto JS
+          <h1>Proyecto JS</h1>
         </div>
-        <navbar>
-          <ul id="menu">
+        <div class="clearfix"></div>
+        <nav id="menu">
+          <ul>
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Reloj</a></li>
             <li><a href="#">Sobre Mi</a></li>
             <li><a href="#">Contacto</a></li>
           </ul>
-        </navbar>
+        </nav>
       </header>
+      <div class="clearfix"></div>
+
       <!-- Slider -->
       <div id="slider">
 
@@ -42,18 +45,56 @@
       <section id="content">
         <div id="posts">
           <article class="post">
-            <h2>Titulo del articulo</h2>
-            <span>Fecha de publicación</span>
-            <p>Quisque fermentum quam finibus consequat sodales. Donec nec neque eget augue dapibus maximus at id sem. Cras mollis, felis sit amet lobortis suscipit, orci quam consectetur nibh, a luctus tellus ante at turpis. Sed quis pellentesque ipsum. Morbi imperdiet ante non lacus fringilla, eu consectetur ipsum varius. Duis non turpis dui. Duis nec ligula feugiat, consectetur tortor quis, varius mi. Curabitur in diam nec urna varius luctus ut in neque. Duis congue laoreet mi, sed congue orci dictum et.</p>
+            <h2>Nombre del articulo</h2>
+            <span class="date">Fecha de publicación</span>
+            <p>Quisque fermentum quam finibus consequat sodales. Donec nec neque eget augue dapibus maximus at id sem. Cras mollis, felis sit amet lobortis suscipit, orci quam consectetur nibh, a luctus tellus ante at turpis. Sed quis pellentesque ipsum. Morbi imperdiet ante non lacus fringilla, eu consectetur ipsum varius. Duis non turpis dui. Duis nec ligula feugiat, consectetur tortor quis, varius mi. Curabitur in diam nec urna varius luctus ut in neque. Duis congue laoreet mi, sed congue orci dictum et.
+            </p>
+            <a href="#" class="button-more">Leer más...</a>
+          </article>
+          <article class="post">
+            <h2>Nombre del articulo 2</h2>
+            <span class="date">Fecha de publicación</span>
+            <p>In sed consectetur lorem. Pellentesque pellentesque porta nunc, sit amet auctor purus varius ut. Duis vitae dapibus metus. Aliquam quis mattis augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas porttitor rhoncus dictum. Maecenas sed pulvinar sem, at egestas ex. Donec interdum at arcu sit amet ullamcorper. Curabitur gravida urna nunc, et tristique lectus vulputate eget. Proin eget tempor odio. Pellentesque mattis, tortor non efficitur congue, augue ipsum viverra libero, vitae maximus risus nulla a velit. Donec sagittis dolor vel tristique gravida.
+            </p>
+            <a href="#" class="button-more">Leer más...</a>
+          </article>
+          <article class="post">
+            <h2>Nombre del articulo 3</h2>
+            <span class="date">Fecha de publicación</span>
+            <p>Pellentesque molestie elementum lobortis. Fusce commodo lacus ut metus vestibulum, a ultrices augue ullamcorper. Proin mattis, velit vitae tristique varius, orci quam fringilla ex, finibus maximus lacus metus quis sapien. Cras condimentum, dolor eu eleifend maximus, mi purus imperdiet lectus, ac bibendum odio odio eu mauris. Cras ac lectus augue. Nulla in tempor eros, at malesuada ante. Duis eu mauris at enim consectetur interdum. Aliquam non leo eu nisi tincidunt facilisis eu at arcu.
+            </p>
+            <a href="#" class="button-more">Leer más...</a>
           </article>
         </div>
-        <sidebar id="sidebar">
-          
-        </sidebar>
+        <aside id="sidebar">
+          <div id="about">
+            <h4><span>¿Quién soy?</span></h4>
+            <img src="./img/caracol.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nulla ligula, facilisis lacinia ligula ut, lacinia tristique augue. Aliquam erat volutpat. In magna augue, iaculis viverra dapibus cursus, tincidunt quis nisl. Quisque massa tellus, faucibus ut nunc at, consequat dignissim ligula. Proin ornare imperdiet rutrum. Phasellus est mi, malesuada nec eros nec, ullamcorper facilisis mi. Nam rutrum suscipit dolor. Quisque varius dignissim est ac sodales. Mauris posuere id nisl sit amet ultricies. Donec finibus dapibus tellus id ullamcorper. Vestibulum ligula velit, mollis at finibus id, facilisis et nunc. Nunc pellentesque dignissim erat, ac pulvinar odio varius at. Suspendisse posuere volutpat.             
+            </p>
+          </div>
+          <div id="about">
+            <h4><span>Login</span></h4>
+            <form action="">
+              <label for="name">Nombre</label>
+              <input type="text" name="name"  placeholder="Tu nombre"/>
+              <br>              
+              <label for="email">Correo:</label>
+              <input type="text" name="email"  placeholder="xxxxx@yyyy.zz"/>
+              <br>              
+              <label for="password">Constraseña</label>
+              <input type="password" name="password"  placeholder="*******"/>
+              <br>
+              <input type="submit" value="Entrar" />
+            </form>            
+            </p>
+          </div>
+        </aside>
+        <div class="clearfix"></div>
       </section>
     </section>
     <footer>
-      Master de programación Udemy - Proyecto JS-jQuerry
+      Master de programación Udemy - Proyecto JS-jQuerry  ©
     </footer>      
   </body>
 </html>
