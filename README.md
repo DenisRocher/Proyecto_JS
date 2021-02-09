@@ -1,7 +1,7 @@
 # Proyecto_JS
 # STATUS: EN DESARROLLO
 
-![Screenshot](MaquetaWeb.png)
+![Screenshot](https://github.com/DenisRocher/Proyecto_JS/blob/master/img/MaquetaWeb.png)
 
 1. Maquetar una web parecida a esta
 2. Buscar un plugin de jQuery para hacer un slider
