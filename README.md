@@ -8,7 +8,7 @@ Ejercicio de desarrollo web del curso de programación de Udemy.
 
  Objetivos del ejercicio:
 - [X] Maquetar una web parecida a esta
-- [ ] Buscar un plugin de jQuery para hacer un slider
+- [X] Buscar un plugin de jQuery para hacer un slider
 - [ ] Listado de post almacenado en un json y mostrado dinámicamente
 - [ ] Cambiador de temas (cambio colores y fondos de la web)
 - [ ] Al final de la web habrá un botón para subir al principio de la web haciendo una animación en el scroll automático.
