@@ -76,6 +76,18 @@ body{
   padding-right: 30px
 }
 
+/** ESTILO GALERIA DE FOTOS */
+#slider{
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.bx-viewport, .bx-wrapper{
+  height: 250px !important;
+    box-shadow: 0px 3px 3px gray !important;
+}
+
 #posts{
   width: 65%;
   float: left;
