@@ -1,0 +1,56 @@
+/** GUIA DE ESTILO PARA TEMA GREEN */
+
+#global{
+  background: white;
+}
+
+body{
+  background: url('../img/hojas.jpg');
+  background-attachment: fixed;
+}
+
+/** Formato Logo y título de la página */
+#logo{
+  background:green;
+  color: white;
+}
+/** Formato Cabecera Men */
+#menu{
+  background: rgb(5, 104, 5);
+}
+
+#menu ul li:hover{
+  background: green;
+}
+
+#menu a{
+  color: white;
+}
+
+.post h2{
+  color:  rgb(5, 104, 5);
+}
+
+.button-more{
+  background: green;
+}
+
+/** ESTILO BARRA LATERAL */
+#sidebar h4{
+  color: rgb(5, 104, 5);
+}
+
+/** ESTILO DATOS DE USUARIO*/
+.userData{
+    color: rgb(5, 104, 5);
+}
+
+form input[type='submit']{
+  background: green;
+}
+
+/** ESTILO DEL PIE DE LA PÁGINA*/
+footer{
+  background: rgba(51,51,51,0.40);
+}
+

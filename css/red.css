@@ -1,0 +1,72 @@
+/** GUIA DE ESTILO PARA TEMA RED */
+
+#global{
+  background: white;
+}
+
+body{
+  background: url('../img/rojo.jpg');
+  background-attachment: fixed;
+}
+
+/** Formato Logo y título de la página */
+#logo{
+  background:red;
+  color: white;
+}
+/** Formato Cabecera Men */
+#menu{
+  background: rgb(226, 50, 50);
+}
+
+#menu ul li:hover{
+  background: rgb(167, 49, 49);
+}
+
+#menu a{
+  color: white;
+}
+
+.post h2{
+  color:  rgb(226, 50, 50);
+}
+
+.button-more{
+  background: red;
+}
+
+/** ESTILO BARRA LATERAL */
+#sidebar h4{
+  color: rgb(226, 50, 50);
+}
+
+/** ESTILO DATOS DE USUARIO*/
+.userData{
+    color: rgb(226, 50, 50);
+}
+
+/** ESTILO FORMULARIO USUARIO */
+
+form label{
+    color: rgb(226, 50, 50);
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"]{
+  border: 1px solid  rgb(226, 50, 50);
+  box-shadow: 2px 2px 2px rgb(167, 49, 49);
+}
+
+form input[type='submit']{
+  background: rgb(226, 50, 50);
+}
+
+/** ESTILO DEL PIE DE LA PÁGINA*/
+footer{
+  background: rgba(51,51,51,0.40);
+}
+
+.ui-state-active{
+    background: rgb(226, 50, 50) !important; 
+}
