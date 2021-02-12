@@ -55,7 +55,8 @@ form input[type="password"],
 form input[type="email"],
 form input[type='number'],
 form input[type='date'],
-#form_contact select
+#form_contact select,
+#form_contact textarea
 {
   border: 1px solid rgb(0, 162, 255);
   box-shadow: 2px 2px 2px rgb(28, 111, 160);
@@ -141,4 +142,8 @@ footer{
 #form_contact select{
   border: 1px solid rgb(0, 162, 255);
   box-shadow: 2px 2px 2px rgb(28, 111, 160);
+}
+
+#box h2{
+  color:  rgb(0, 162, 255);
 }

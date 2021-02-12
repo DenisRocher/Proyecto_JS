@@ -171,7 +171,8 @@ form input[type="password"],
 form input[type="email"],
 form input[type='number'],
 form input[type='date'],
-#form_contact select
+#form_contact select,
+#form_contact textarea
 {
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px;
@@ -260,7 +261,7 @@ footer{
   padding-right: 10px;
   text-decoration: none;
   display: block;
-  float: right;
+  float:none;
 }
 
 #accordion{
@@ -348,4 +349,10 @@ footer{
   margin-top: 5px;
 }
 
-
+#box h2{
+  text-align: center;
+  display: block;
+  margin-top: 50px;
+  font-size: 30px;
+  color:  rgb(5, 104, 5);
+}
