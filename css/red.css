@@ -53,7 +53,11 @@ form label{
 
 form input[type="text"],
 form input[type="password"],
-form input[type="email"]{
+form input[type="email"],
+form input[type='number'],
+form input[type='date'],
+#form_contact select
+{
   border: 1px solid  rgb(226, 50, 50);
   box-shadow: 2px 2px 2px rgb(167, 49, 49);
 }
@@ -69,4 +73,73 @@ footer{
 
 .ui-state-active{
     background: rgb(226, 50, 50) !important; 
+}
+
+.ui-accordion-content{
+    background: rgba(221, 157, 157, 0.5) !important; 
+}
+
+.ui-accordion-header-collapsed{
+    background: rgb(226, 50, 50,0.5) !important; 
+}
+
+#reloj{
+  color:rgb(226, 50, 50);
+}
+
+/** Reloj Análogo */
+.codehim-clock-dale {
+  border: 10px solid rgba(226, 50, 50,0.8);
+}
+
+.number{
+  color: rgba(226, 50, 50);
+}
+
+.p3,
+.p6,
+.p9,
+.p12 {
+   background:rgba(226, 50, 50, 0.3);
+}
+
+.clock-center{
+  background: rgba(226, 50, 50);
+  background: -webkit-linear-gradient(to right,rgba(226, 50, 50), red);
+	background: linear-gradient(to right,rgba(226, 50, 50,0.5), red);
+}
+
+/* clock hands */
+
+.seconds-hand{
+    background: rgba(226, 50, 50, 0.5); 
+}
+
+.minutes-hand{
+    background: rgba(226, 50, 50,0.8);
+}
+
+.hours-hand{
+    background: red;  
+    border-left: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.date-box{
+   background: rgba(226, 50, 50,0.8);
+}
+.date-box .day{
+  background: red; 
+}
+
+.logo-outer{
+   border-left: 3px solid rgba(226, 50, 50,0.5);
+}
+
+.logo-outer1 {
+  border-left: 3px solid rgba(226, 50, 50) ;
+}
+
+#form_contact select{
+  border: 1px solid  rgb(226, 50, 50);
+  box-shadow: 2px 2px 2px rgb(167, 49, 49);
 }

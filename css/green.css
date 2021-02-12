@@ -45,6 +45,24 @@ body{
     color: rgb(5, 104, 5);
 }
 
+/** ESTILO FORMULARIO USUARIO */
+
+form label{
+    color: rgb(5, 104, 5);
+}
+
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type='number'],
+form input[type='date'],
+#form_contact select
+{
+  border: 1px solid  green;
+  box-shadow: 2px 2px 2px rgb(167, 49, 49);
+}
+
 form input[type='submit']{
   background: green;
 }
@@ -54,3 +72,75 @@ footer{
   background: rgba(51,51,51,0.40);
 }
 
+.ui-state-active{
+    background: green !important; 
+}
+
+.ui-accordion-content{
+    background: rgba(73, 133, 73, 0.5) !important; 
+}
+
+.ui-accordion-header-collapsed{
+    background: rgb(98, 161, 98,0.5) !important; 
+}
+
+#reloj{
+  color: green;
+}
+
+/** Reloj Análogo */
+.codehim-clock-dale {
+  border: 10px solid green;
+}
+
+.number{
+  color: green;
+}
+
+.p3,
+.p6,
+.p9,
+.p12 {
+   background:rgba(73, 133, 73, 0.5);
+}
+
+.clock-center{
+  background: rgba(73, 133, 73, 0.5);
+  background: -webkit-linear-gradient(to right,rgba(73, 133, 73), green);
+	background: linear-gradient(to right,rgba(73, 133, 73,0.8), green);
+}
+
+/* clock hands */
+
+.seconds-hand{
+    background: rgba(73, 133, 73, 0.4); 
+}
+
+.minutes-hand{
+    background: rgba(73, 133, 73, 0.8);
+}
+
+.hours-hand{
+    background: green;  
+}
+
+.date-box{
+   background: rgba(73, 133, 73,0.5);
+}
+
+.date-box .day{
+  background: rgba(73, 133, 73); 
+}
+
+.logo-outer{
+   border-left: 3px solid green;
+}
+
+.logo-outer1 {
+  border-left: 3px solid rgba(73, 133, 73,0.8) ;
+}
+
+#form_contact select{
+  border: 1px solid  rgb(226, 50, 50);
+  box-shadow: 2px 2px 2px rgb(167, 49, 49);
+}

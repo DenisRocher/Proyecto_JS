@@ -168,7 +168,11 @@ form label{
 
 form input[type="text"],
 form input[type="password"],
-form input[type="email"]{
+form input[type="email"],
+form input[type='number'],
+form input[type='date'],
+#form_contact select
+{
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px;
   border-radius: 2px;
@@ -266,3 +270,82 @@ footer{
 .ui-state-active{
     background:  green !important; 
 }
+
+#reloj{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+  width: 31%;
+  padding: 30px;
+  margin: 35px auto;
+}
+
+/** Reloj Análogo */
+.codehim-clock-dale {
+  margin-top: 100px; 
+  border: 10px solid green;
+  box-shadow: -2px 1px 8px rgba(0, 0, 0, 0.4);
+}
+
+.number{
+  color: green;
+}
+
+.p3,
+.p6,
+.p9,
+.p12 {
+   background:rgba(73, 133, 73, 0.5);
+}
+
+.clock-center{
+  background: rgba(73, 133, 73, 0.5);
+  background: -webkit-linear-gradient(to right,rgba(73, 133, 73), green);
+	background: linear-gradient(to right,rgba(73, 133, 73,0.8), green);
+}
+
+/* clock hands */
+.seconds-hand{
+    background: rgba(73, 133, 73, 0.5); 
+}
+
+.minutes-hand{
+    background: green;
+}
+
+.hours-hand{
+    background: #3D3C3A;  
+    border-left: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.date-box{
+   background: rgba(73, 133, 73,0.8);
+}
+
+.date-box .day{
+  background: green; 
+}
+
+.logo-outer{
+   border-left: 3px solid green;
+}
+
+.logo-outer1 {
+  border-left: 3px solid rgba(73, 133, 73,0.8) ;
+}
+
+/** FORMULARIO DE CONTACTO */
+#form_contact{
+  width: 50%;
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#form_contact label{
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+}
+
+

@@ -21,7 +21,7 @@ $(function(){
     });
 
     // Recupera del storage los datos del usuario con login
-    console.log(usuario);
+    //console.log(usuario);
 
     if (usuario != null){
         var datosUser = `

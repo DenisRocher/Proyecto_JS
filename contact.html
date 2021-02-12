@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 
     <script type='text/javascript' src='./js/jquery-3.5.1.min.js'></script>
+    <script type="text/javascript" src="./js/jquery.form-validator.min.js"></script>
 
     <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.min.css" />
     <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.structure.min.css" />
@@ -17,7 +18,7 @@
 
 
     <script type='text/javascript' src='./js/main.js'></script>
-    <script type='text/javascript' src='./js/about.js'></script>
+    <script type='text/javascript' src='./js/c'></script>
 
   </head>
   <body>
@@ -48,54 +49,28 @@
       <!-- Contenido -->
       <section id="content">
         <div id="box">
-          <div id="accordion">
-            <h3>¿Quienes somos?</h3>
-            <div>
-              <p>
-              Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-              ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-              amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-              odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-              </p>
-            </div>
-            <h3>Nuestros servicios</h3>
-            <div>
-              <p>
-              Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-              purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-              velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-              suscipit faucibus urna.
-              </p>
-            </div>
-            <h3>Nuestros clientes</h3>
-            <div>
-              <p>
-              Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-              Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-              ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-              lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-              </p>
-              <ul>
-                <li>List item one</li>
-                <li>List item two</li>
-                <li>List item three</li>
-              </ul>
-            </div>
-            <h3>Section 4</h3>
-            <div>
-              <p>
-              Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-              et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-              faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-              mauris vel est.
-              </p>
-              <p>
-              Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-              inceptos himenaeos.
-              </p>
-            </div>
-          </div>
+          <!-- Formulario de contacto -->
+          <h2>Contacto</h2>
+          <form action="" method="POST" id="form_contact">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" placeholder="Nombre" />
+            <label for="surname">Apellidos</label>
+            <input type="text" name="surname" placeholder="Apellidos" />
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" placeholder="xxxx@yyy.zz" />
+            <label for="genre">Sexo</label>
+            <select name="genre" id="">
+              <option value="men">Hombre</option>
+              <option value="women">Mujer</option>
+            </select>
+            <label for="birthday">Fecha de nacimiento</label>
+            <input type="date" name="birthday"  />
+            <label for="age">Edad</label>
+            <input type="number" name="age" placeholder="18" />
+            <br>
+            <input type="submit" value='Enviar' />
+
+          </form>
         </div>
         <aside id="sidebar">
           <div id="about">
