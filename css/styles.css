@@ -356,3 +356,47 @@ footer{
   font-size: 30px;
   color:  rgb(5, 104, 5);
 }
+
+/* Formulario de contacto y validaciones */
+
+p.note {
+  font-size: 1rem;
+  color: red;
+}
+
+input, textarea {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 4px;
+  font-family: 'Lato';
+  width: 300px;
+  margin-top: 10px;
+  outline: none;
+}
+
+label {
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+label span {
+  font-size: 1rem !important;
+}
+
+label.error {
+    color: white !important;
+    background-color: rgb(230, 11, 11,0.3) !important;
+    padding: 5px;
+    border-radius: 5px !important;
+    font-size: 1rem !important;
+    display: block !important;
+    margin-top: 5px !important;
+    text-align: center;
+}
+
+input.error, textarea.error, date.error {
+    border: 1px dashed red !important;
+    font-weight: 300;
+    color: red !important;
+}

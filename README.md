@@ -2,7 +2,7 @@
 Ejercicio de desarrollo web del curso de programación de Udemy. 
 [Contenido del curso](https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nodejs-y-mas/?src=sac&kw=master%20en%20javascript%20jque)
 
-### STATUS: ***EN DESARROLLO*** ###
+### STATUS: *** FINALIZADO - EN MEJORA CONTINUA *** ###
 
 ![Screenshot](https://github.com/DenisRocher/Proyecto_JS/blob/master/img/MaquetaWeb.png)
 
@@ -15,5 +15,5 @@ Ejercicio de desarrollo web del curso de programación de Udemy.
 - [X] Hacer un formulario de login falso que nos permita guardar en el localstorage el nombre del usuario y en el caso de que exista la “sesión” mostrarla.
 - [X] Sección “Sobre mi” en la que habrá un acordeón de jquery ui
 - [X] Sección “Reloj” en la que habrá un reloj dinámico con javascript
-- [ ] Sección de contacto con formulario y validación
+- [X] Sección de contacto con formulario y validación
 

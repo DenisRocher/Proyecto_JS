@@ -5,20 +5,21 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 
     <script type='text/javascript' src='./js/jquery-3.5.1.min.js'></script>
-    <script type="text/javascript" src="./js/jquery.form-validator.min.js"></script>
 
     <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.min.css" />
     <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.structure.min.css" />
     <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.theme.min.css" />
     <script type='text/javascript' src='./js/jquery-ui/jquery-ui.min.js'></script>
 
+  <!-- Validación de formularios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>  
   <!-- Estilo CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
     <link id="theme" rel="stylesheet" href="./css/green.css" />
 
 
     <script type='text/javascript' src='./js/main.js'></script>
-    <script type='text/javascript' src='./js/c'></script>
+    <script type='text/javascript' src='./js/contact.js'></script>
 
   </head>
   <body>
@@ -53,8 +54,7 @@
           <h2>Formulario de Contacto</h2>
           <form action="" method="POST" id="form_contact">
             <label for="name">Nombre</label>
-            <input type="text" name="name" placeholder="Nombre" />
-            <label for="surname">Apellidos</label>
+            <input type="text" name="name" placeholder="Nombre" required />            <label for="surname">Apellidos</label>
             <input type="text" name="surname" placeholder="Apellidos" />
             <label for="mail">Email:</label>
             <input type="email" name="mail" placeholder="xxxx@yyy.zz" />
